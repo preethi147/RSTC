@@ -1,0 +1,35 @@
+#main-navigation  {
+	 li a {
+			&:hover {
+		    	text-decoration: none;
+			}
+	}
+	.current-menu-item a{
+		text-decoration: none;
+	}
+}
+
+.add_to_cart_button:hover,
+.summary .cart [class*="_add_to_cart"]:hover,
+.product-action-bottom > .product_type_variable:hover,
+.cart-title i, .site-footer .newsletter-submit:hover {
+    background-color: $primary !important;
+		color: $white !important;
+}
+
+.vc_btn3.vc_btn3-color-danger,
+.vc_btn3.vc_btn3-color-danger.vc_btn3-style-flat {
+    &:hover {
+      color: $white !important;
+      background-color: $tertiary !important;
+			border-color: $tertiary !important;
+    }
+}
+
+.image-hover-inner .content a.rit-button {
+  &:hover{
+    background-color: $tertiary !important;
+    border:none;
+  }
+
+}

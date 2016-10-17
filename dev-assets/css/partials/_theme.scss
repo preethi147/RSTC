@@ -1,0 +1,95 @@
+
+/* ----------------------------------------------------------------------------
+ * Colors
+ * ------------------------------------------------------------------------- */
+
+$primary: #da2032;
+$secondary: #e1b014;
+$tertiary: #333;
+$darkgrey : #494949;
+$light-grey:#ededed;
+$grey : #c4c4c4;
+$white:#fff;
+$black:#000;
+
+
+.site-header .rit-header-top a {
+    color: $black !important;
+
+}
+
+/* Price Buster */
+
+.vc_btn3.vc_btn3-color-danger,
+.vc_btn3.vc_btn3-color-danger.vc_btn3-style-flat {
+    color: $white;
+    border-color: $primary !important;
+    background-color: $primary !important;
+}
+
+/* Shopping Cart */
+
+.page-numbers {
+  color:$tertiary !important;
+}
+
+.page-numbers.next,
+.page-number.prev {
+  color:$white !important;
+}
+
+.rit-shopping-cart .cart-item {
+	color: $black;
+}
+
+
+
+
+.product.product-list-item .feature-image {
+  border: 1px solid $grey;
+}
+
+#main-navigation  {
+	 li a {
+		color: $black;
+			&:hover {
+		    	color: $secondary !important;
+			}
+	}
+	.current-menu-item a{
+		color: $primary !important;
+	}
+}
+
+
+
+.image-hover-inner .content a.rit-button {
+  color:$white !important;
+  border:none;
+  text-decoration: none;
+}
+
+.ajax-search-form .selectBox-dropdown .selectBox-label,
+.search-wrap input[type=text] {
+  color:$tertiary;
+}
+
+.mc4wp-form {
+  p {
+    display: inline;
+  }
+
+  input[type="email"]{
+    width:73%;
+  }
+
+  input[type="submit"] {
+    background-color: $primary;
+    color:$white;
+    border:none;
+    font-size: 1.1em;
+    &::hover {
+      background-color: $tertiary !important;
+    }
+  }
+}

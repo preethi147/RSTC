@@ -1,0 +1,28 @@
+/*
+============================================================
+
+	Theme Name: Ri Quartz Child
+	Theme URI: http://www.wsme.co.nz
+	Author: WSME Ltd
+	Author URI: http://wsme.co.nz
+	Description: Custom theme for R & S TRADE
+	Version: 1.0
+	Template: ri-quartz
+
+============================================================
+*/
+
+/* ----------------------------------------------------------------------------
+ * Mixins & Variables
+ * ------------------------------------------------------------------------- */
+
+@import "partials/theme";
+@import "partials/mixins";
+
+/* ----------------------------------------------------------------------------
+ * SMACSS FILES
+ * ------------------------------------------------------------------------- */
+@import "partials/base";
+@import "partials/layout";
+@import "partials/module";
+@import "partials/state";

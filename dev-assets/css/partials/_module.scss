@@ -1,0 +1,117 @@
+.woocommerce-price-suffix {
+  font-size: 0.6em;
+}
+
+.product_list_widget {
+  .price {
+     font-size: 0.9em;
+   }
+  .woocommerce-Price-amount {
+    font-size: 1.5em;
+  }
+}
+
+form.woocommerce-ordering {
+  display: inline-block;
+}
+
+.ordering h3 {
+  margin-top: 0;
+}
+
+/*Hide "New" label that is added byt he themem automatically if productw as uploaded less than 30 days ago*/
+.label-new {
+  display: none !important;
+}
+
+.woocommerce .woocommerce-pagination {
+  text-align: center !important;
+}
+.woocommerce-page ul.products li.first {
+  clear:none !important;
+}
+
+li.product .price {
+    margin: 5px 0 15px;
+}
+
+.rit-owl-carousel {
+
+  .product {
+
+    .product-inner {
+      height: 240px;
+
+      .feature-image {
+        height: 180px;
+      }
+    }
+
+  }
+
+}
+
+.wpcf7-form label {
+  width: 100%;
+}
+
+.login-btn {
+  display: inline-block;
+}
+
+.woocommerce-LostPassword.lost_password {
+  display: inline;
+  float: right;
+  line-height: 2.7em;
+
+}
+
+.woocommerce-MyAccount-navigation {
+  ul {
+    margin :0 !important;
+  }
+}
+
+.woocommerce-MyAccount-navigation-link {
+  list-style: none;
+  padding: 1em;
+  background-color: $light-grey;
+  &:hover {
+    background-color: $primary;
+    color:$white !important;
+    text-decoration: none;
+  }
+  a {
+    display: block;
+    width: 100%;
+    &:hover{
+      color:$white !important;
+      text-decoration: none;
+    }
+  }
+}
+
+.woocommerce-EditAccountForm {
+  fieldset{
+    margin-top:2em;
+    legend {
+      padding-bottom: 0.5em;
+    }
+  }
+}
+
+.rit-social {
+
+.fa {
+  color:$primary;
+  &:hover {
+    color:$white;
+
+  }
+}
+
+}
+
+.label-free {
+  display: none;
+}
